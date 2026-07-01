@@ -996,8 +996,8 @@ export default function Home() {
           <div className="nav-actions">
             {authed ? (
               <>
-                <Link href="/contact" className="pill outline-green">
-                  Book a demo
+                <Link href="/sign-in" className="pill outline-green">
+                  Sign in
                 </Link>
                 <Link href="/documents" className="pill primary">
                   Open App
@@ -1005,8 +1005,8 @@ export default function Home() {
               </>
             ) : (
               <>
-                <Link href="/contact" className="pill outline-green">
-                  Book a demo
+                <Link href="/sign-in" className="pill outline-green">
+                  Sign in
                 </Link>
                 <Link href="/sign-up" className="pill primary">
                   Sign up
@@ -1037,8 +1037,8 @@ export default function Home() {
                   <Link href="/sign-up" className="pill primary">
                     Sign up
                   </Link>
-                  <Link href="/contact" className="pill">
-                    Book a demo
+                  <Link href="/sign-in" className="pill">
+                    Sign in
                   </Link>
                 </>
               )}
