@@ -103,7 +103,7 @@ export function loadAiConfig(): AiRuntimeConfig {
         chat: process.env.GROK_MODEL?.trim() || "grok-4.3",
       },
       google: {
-        chat: process.env.GEMINI_MODEL?.trim() || "gemini-2.5-flash",
+        chat: process.env.GEMINI_MODEL?.trim() || "gemini-3.6-flash",
         embedding: process.env.GEMINI_EMBEDDING_MODEL?.trim() || "text-embedding-004",
       },
     },

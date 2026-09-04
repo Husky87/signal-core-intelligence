@@ -1,6 +1,6 @@
 export const AI_CONFIG = {
   provider: "Gemini",
-  model: "gemini-2.5-flash",
+  model: "gemini-3.6-flash",
   embeddingModel: "text-embedding-3-small",
   webResearch: false,
   externalProviders: true,

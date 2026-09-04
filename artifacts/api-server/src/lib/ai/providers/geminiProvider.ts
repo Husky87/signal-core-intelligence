@@ -12,7 +12,7 @@ type GeminiResponse = {
 };
 
 function normalizeModel(model: string): string {
-  const trimmed = model.trim() || "gemini-2.5-flash";
+  const trimmed = model.trim() || "gemini-3.6-flash";
   return trimmed.startsWith("models/") ? trimmed.slice("models/".length) : trimmed;
 }
 
